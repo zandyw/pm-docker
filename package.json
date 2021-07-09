@@ -1,6 +1,7 @@
 {
   "version": "1.0.0",
   "name": "pm-docker",
+  "description": "process manager for Node.JS in docker",
   "author": {
     "name": "yuwei",
     "email": "zandyw@me.com"
@@ -17,5 +18,25 @@
     "log4js": "^6.3.0",
     "moment": "^2.29.1",
     "os-utils": "^0.0.14"
+  },
+  "keywords": [
+    "node",
+    "pm",
+    "docker",
+    "wx",
+    "parser"
+  ],
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/zandyw/pm-docker",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/zandyw/pm-docker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zandyw/pm-docker/issues"
   }
 }
