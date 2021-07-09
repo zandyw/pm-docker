@@ -1,6 +1,29 @@
-1.通过cli形式 以命令行和参数启动项目监控  已实现
-2.进程守护和重启  已实现
-3.异常提醒 企业微信 已接通   配置信息存放在env文件中
-4.日志本地存储和定期删除  暂定一个月
-5.服务器状态预警  每分钟判断一次
+轻量级的非侵入式的node服务监控和预警程序,包含可选的企业微信消息推送功能。
+
+### 安装
+```
+npm  install -g pm-docker
+```
+
+### 使用
+```
+pm-docker run [script]
+```
+script值为想要运行的node项目package.json中配置的scripts命令，默认值start
+
+### 配置
+如果需要启用企业微信消息推送功能,在你的项目目录创建pm-docker.env文件
+```
+#企业id
+corpid=
+
+#自建应用secret
+corpsecret=
+
+#自建应用agentid
+agentid=
+
+#消息推送给谁
+touser=
+```
 
