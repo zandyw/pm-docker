@@ -6,7 +6,7 @@
     "email": "zandyw@me.com"
   },
   "bin": {
-    "pm11": "bin/pm-docker.js"
+    "pmd": "bin/pm-docker.js"
   },
   "dependencies": {
     "commander": "^8.0.0",

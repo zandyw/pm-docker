@@ -7,7 +7,7 @@ npm  install -g pm-docker
 
 ### 使用
 ```
-pm-docker run [script]
+pmd run [script]
 ```
 script值为想要运行的node项目package.json中配置的scripts命令，默认值start
 
