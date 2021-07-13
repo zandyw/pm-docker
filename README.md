@@ -25,5 +25,8 @@ agentid=
 
 #消息推送给谁
 touser=
+
+#日志输出目录
+logPath=
 ```
 
