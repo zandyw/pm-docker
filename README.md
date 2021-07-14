@@ -14,6 +14,18 @@ script值为想要运行的node项目package.json中配置的scripts命令，默
 ### 配置
 如果需要启用企业微信消息推送功能,在你的项目目录创建pm-docker.env文件
 ```
+#log save path
+logPath=
+
+#upper limit of cpu useage percent
+cpuLimit=90
+
+#upper limit of memory useage percent
+memoryLimit=95
+
+#available disk
+diskLimit=500000000
+
 #企业id
 corpid=
 
@@ -25,8 +37,5 @@ agentid=
 
 #消息推送给谁
 touser=
-
-#日志输出目录
-logPath=
 ```
 
