@@ -1,4 +1,5 @@
 轻量级的非侵入式的node服务监控和预警程序,包含可选的企业微信消息推送功能。
+使用fork方式启动，单进程，适合在docker环境下运行
 
 ### 安装
 ```
@@ -12,7 +13,7 @@ pmd run [script]
 script值为想要运行的node项目package.json中配置的scripts命令，默认值start
 
 ### 配置
-如果需要启用企业微信消息推送功能,在你的项目目录创建pm-docker.env文件
+在你的项目目录创建pm-docker.env文件,填写完整配置信息
 ```
 #log save path
 logPath=
