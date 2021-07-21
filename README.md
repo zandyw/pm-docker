@@ -1,19 +1,20 @@
-轻量级的非侵入式的node服务监控和预警程序,包含可选的企业微信消息推送功能。
-使用fork方式启动，单进程，适合在docker环境下运行
+Lightweight non-invasive node service monitoring and early warning program, including optional enterprise wechat message push function.
 
-### 安装
+Start with fork mode, single process, suitable for running in docker environment.
+
+### Install
 ```
 npm  install -g pm-docker
 ```
 
-### 使用
+### USE
 ```
 pmd run [script]
 ```
-script值为想要运行的node项目package.json中配置的scripts命令，默认值start
+The script value is the scripts command configured in the node project package.json that you want to run.
 
-### 配置
-在你的项目目录创建pm-docker.env文件,填写完整配置信息
+### CONFIG
+Create the pm-docker.env file in your project directory and fill in the complete configuration information
 ```
 #log save path
 logPath=
