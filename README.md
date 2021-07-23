@@ -19,6 +19,9 @@ Create the pm-docker.env file in your project directory and fill in the complete
 #log save path
 logPath=
 
+#log split format
+logPattern=.yyyy-MM-dd
+
 #upper limit of cpu useage percent
 cpuLimit=90
 

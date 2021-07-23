@@ -1,5 +1,5 @@
 {
-  "version": "1.0.4",
+  "version": "1.0.5",
   "name": "pm-docker",
   "description": "process manager for Node.JS in docker",
   "author": {
@@ -15,7 +15,7 @@
     "dotenv": "^10.0.0",
     "fs-extra": "^8.1.0",
     "glob": "^7.1.7",
-    "log4js": "^6.3.0",
+    "log4js": "6.3.x",
     "moment": "^2.29.1",
     "os-utils": "^0.0.14"
   },
