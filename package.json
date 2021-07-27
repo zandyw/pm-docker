@@ -1,5 +1,5 @@
 {
-  "version": "1.0.5",
+  "version": "1.0.7",
   "name": "pm-docker",
   "description": "process manager for Node.JS in docker",
   "author": {
