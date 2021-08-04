@@ -25,8 +25,8 @@ logPattern=.yyyy-MM-dd
 #upper limit of cpu useage percent
 cpuLimit=90
 
-#upper limit of memory useage percent
-memoryLimit=95
+#mini free memory
+memoryLimit=100000000
 
 #available disk
 diskLimit=500000000
