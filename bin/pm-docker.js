@@ -4,13 +4,22 @@ const {version} = require('../package.json');
 
 program
   .version(version)
-  .option('-v --version', 'print pm11 version');
+  .option('-v --version', 'print pm-docker version');
 
 program  
-  .command('run [script]')
+  .command('run <script> [env]')
   .description('run your program in fork mode by the scripts name in package.json')
-  .action((script)=>{
-    require('../lib/run')(script);
+  .action((script,env)=>{
+    if(typeof env === 'string'){
+      const envArr = env.split('=');
+      if(envArr.length !== 2){
+         console.log('the env arg should be a string like this: "key=value"')
+         return;
+      }
+      process.env[envArr[0]]=envArr[1];
+    }
+   
+    require('../lib/run')(script,process.env);
   })
 
 program.parse(process.argv);
